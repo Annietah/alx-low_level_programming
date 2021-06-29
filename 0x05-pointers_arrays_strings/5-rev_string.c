@@ -16,7 +16,7 @@ len--;
 for (i = 0; i < len; i++)
 {
 l = *(s + len);
-*(s + len) = *(s+i);
+*(s + len) = *(s + i);
 *(s + i) = l;
 len--;
 }
