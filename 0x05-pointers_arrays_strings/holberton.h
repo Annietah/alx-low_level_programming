@@ -1,1 +1,1 @@
-int _strlen(char *s);
+void _putstr(char *str);
