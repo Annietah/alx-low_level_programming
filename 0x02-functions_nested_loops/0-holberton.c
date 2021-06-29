@@ -1,16 +1,17 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
- * main - calls the function _putchar
+ * main - Print Holberton
   * Return: 0 on success.
  */
 int main(void)
 {
   int i;
-  char c[] = "Holberton";
+  char n[9] = "Holberton";
   
   for (i = 0; i < 9; i++)
     {
-      _putchar(c[i]);
+      _putchar(n[i]);
     };
   _putchar('\n');
   return (0);
