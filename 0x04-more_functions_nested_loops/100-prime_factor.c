@@ -15,7 +15,7 @@ for (i = 2; i <= n; i++)
 if (n % i == 0)
 {
 n = n / i;
-acu = acu * i;
+acu = acu *i;
 
 if (i > m)
 m = i;
